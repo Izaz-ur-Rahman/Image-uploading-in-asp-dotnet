@@ -1,0 +1,7 @@
+# ❌ Ignore Visual Studio cache completely
+.vs/
+**/*.vsidx
+
+# ❌ Ignore compiled output
+bin/
+obj/
