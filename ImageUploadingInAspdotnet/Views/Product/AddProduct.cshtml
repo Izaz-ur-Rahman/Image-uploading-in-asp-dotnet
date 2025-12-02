@@ -9,6 +9,8 @@
 <h4>Product</h4>
 <hr />
 <div class="row">
+    <p style="color:red">@TempData["size"]</p>
+    <p style="color: red">@TempData["Ext_error"]</p>
     <div class="col-md-4">
         <form asp-action="AddProduct" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
